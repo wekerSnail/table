@@ -1,0 +1,64 @@
+/*文本框、按钮、下拉列表等*/
+input[type='text'],input[type='password'],input[type='button'],button,select,textarea
+	{
+	color: #3a3a3a;
+	outline: none;
+	padding: 0.5em 0.7em;
+	border: 0.15em solid #E3E9F0;;
+	box-sizing: border-box;
+}
+
+/*鼠标悬停在文本框、密码框上时灰色边框*/
+input[type='text']:hover,input[type='password']:hover,select:hover,textarea:hover
+	{
+	border: 0.15em solid #828181;
+}
+
+/*文本框获得焦点时的蓝色边框*/
+input[type='text']:focus,input[type='password']:focus,select:focus,textarea:focus
+	{
+	border: 0.15em solid #0078d7;
+}
+
+/*文本框出错时的样式*/
+.txtErr {
+	border: 0.15em solid red !important;
+}
+
+/*按钮通用样式*/
+input[type='button'],button {
+	color: white;
+	cursor: pointer;
+	font-size: 15px;
+	padding: 0.35em 1.3em;
+	border: 2px solid #2196f3;
+	border-bottom: 2px solid #0079d8;;
+	background-color: #2196F3;
+	box-shadow: 0em 0.1em 0.3em #bfbfbf;
+}
+
+/*按钮鼠标悬停*/
+input[type='button']:hover,button:hover {
+	border: 2px solid #0268b9;
+}
+
+/*按钮鼠标按下*/
+input[type='button']:active,button:active {
+	border: 2px solid #0079d8;
+	background-color: #0268b9;
+}
+
+/*按钮禁用*/
+.btnDisable {
+	border: 2px solid #cacaca !important;
+	border-bottom: 2px solid #a7a7a7 !important;
+	background-color: #cacaca !important;
+}
+
+.btnDisable:hover {
+	border: 2px solid #a7a7a7 !important;
+}
+/*阻止拖动修改大小*/
+textarea {
+	resize: none;
+}

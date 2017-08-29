@@ -1,0 +1,177 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+}
+
+body,html {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+
+.exitPoppPanel {
+	width: 100%;
+	height: 100%;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+}
+
+.topContainer {
+	width: 100%;
+	height: 5em;
+	min-height: 80px;
+	background: #EAF3FC;
+	overflow: hidden;
+}
+
+.logoPanel {
+	float: left;
+	overflow: hidden;
+	width: 12em;
+	background-color: #008AFF;
+	height: 100%;
+}
+
+.logo {
+	margin: 0.8em 1em;
+}
+
+.sysName {
+	float: left;
+	margin: 0.5em 1em;
+	font-size: 2em;
+	color: #46525E;
+	font-weight: bold;
+	-moz-user-select: none; /*火狐*/
+	-webkit-user-select: none; /*webkit浏览器*/
+	-ms-user-select: none; /*IE10*/
+	-khtml-user-select: none; /*早期浏览器*/
+	user-select: none;
+}
+
+.logoHead {
+	width: 3em;
+	height: 3em;
+	float: right;
+	margin: 13px 5px 0 0;
+	border-radius: 50%;
+	overflow: hidden;
+	border: 4px solid #DDE6EE;
+}
+
+.logoHead img {
+	width: 3em;
+	height: 3em;
+}
+
+.info {
+	float: right;
+	margin-right: 10px;
+	margin-top: 18px;
+}
+
+.logoName {
+	color: #46525E;
+	font-weight: 600;
+	text-align: left;
+	width: 100px;
+}
+
+.logoEmail {
+	color: #97a5b3;
+	font-size: 14px;
+	text-align: left;
+	width: 100px;
+}
+
+.exit {
+	font-weight: bold;
+	float: right;
+	margin: 20px 0 0 20px;
+	cursor: pointer;
+	color: #46525E;
+	width: 3em;
+	height: 2.5em;
+	box-sizing: border-box;
+	padding: 0.45em 0.6em;
+	-ms-user-select: none;
+	-khtml-user-select: none;
+	user-select: none;
+}
+
+.loginMenu {
+	border-radius: 5px;
+	background-color: #eaf3fc;
+	box-shadow: 0 0 5px #b3b8bd;
+	position: absolute;
+	right: 30px;
+	top: 50px;
+	padding: 0.2em 0.5em;
+	transition: all 250ms;
+	opacity: 0;
+	z-index: 11;
+}
+
+.MenuP {
+	font-size: 14px;
+	padding: 0.5em 0;
+	color: #46525e;
+	cursor: pointer;
+}
+
+.MenuP:hover {
+	color: red;
+}
+
+.exit .fa-bars {
+	font-size: 28px;
+}
+
+.showLoginMenu {
+	margin-top: 1em;
+	opacity: 1;
+}
+
+.exit:hover {
+	color: #7f8f9e;
+}
+
+.exit:active {
+	color: #374554;
+}
+
+.BodyLeft {
+	width: 12em;
+	height: calc(100% -     5em);
+	background-color: #48535F;
+	overflow: hidden;
+	float: left;
+	box-sizing: border-box;
+}
+
+.webContant {
+	width: calc(100% -     12em);
+	height: calc(100% -     5em);
+	float: left;
+	box-sizing: border-box;
+	background-color: white;
+}
+
+.ifrWeb {
+	width: 100%;
+	height: 100%;
+	border: none;
+	box-sizing: border-box;
+}
+
+.hidden {
+	display: none;
+}
+
+.txtSearch {
+	float: left;
+	border-radius: 30px;
+	margin: 23px 0 0 20px;
+}

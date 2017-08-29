@@ -1,0 +1,125 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Microsoft YaHei";
+}
+
+body,html {
+	height: 100%;
+	width: 100%;
+	min-width: 850px;
+	overflow-x: auto;
+}
+
+.tableContainer {
+	width: 100%;
+	box-sizing: border-box;
+}
+
+.tablePanel {
+	width: 100%;
+	text-align: center;
+	border-left: 0.0625em solid #e0e0e0;
+}
+
+.tabHead {
+	background-color: #57ACEC;
+}
+
+.tabHead th {
+	height: 3.5em;
+	color: white;
+}
+
+.tableContainer td {
+	height: 2.5em;
+	padding: 0 1em;
+	border: none;
+	font-weight: 500;
+	border: 0.0625em solid #e0e0e0;
+	border-top: none;
+	border-left: none;
+}
+
+.trBg {
+	border: 0.0625em solid black;
+	background-color: #EEEFF4;
+}
+
+.trBg2 {
+	border: 0.0625em solid #e0e0e0;
+	background-color: #FFFFFF;
+}
+
+.tableContainer .tabBody tr:hover {
+	background-color: #A9DEFD;
+	color: white;
+}
+
+.pager {
+	width: 100%;
+	padding: 0.4em 1em;
+	overflow: hidden;
+	box-sizing: border-box;
+	background-color: #e0e0e0;
+}
+
+.total {
+	padding: 0.2em;
+	float: left;
+	letter-spacing: 0.08em
+}
+
+.total_last {
+	position: absolute;
+	left: 260px;
+	padding: 0.2em;
+	float: left;
+}
+
+.ddlTxt {
+	padding: 0.1em 2em .3em 0.6em;
+	overflow: hidden;
+	white-space: nowrap;
+}
+
+.ddlArrow {
+	width: 0;
+	height: 0;
+	border-top: .4em solid #9c9c9c;
+	border-left: .4em solid white;
+	border-right: .4em solid white;
+	position: absolute;
+	right: .9em;
+	top: .65em;
+}
+
+.selectPage {
+	position: absolute;
+	left: 185px;;
+	width: 4em;
+	height: 1.5em;
+}
+
+.up,.down,.CurrentPage {
+	padding: 0.2em 0.4em;
+	float: right;
+	cursor: pointer;
+}
+
+.up .fa,.down .fa {
+	font-size: 16px;
+}
+
+.chose {
+	background-color: #aed4f5 !important;
+}
+
+.hidden {
+	display: none;
+}
+
+.trBg2>td,.trBg>td {
+	color: #7d7d7d;
+	padding: 1em 0;
+}
